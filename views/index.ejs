@@ -1,0 +1,19 @@
+<%- include("partials/header") %>
+
+<h1>
+    List Of All Data - Display All
+</h1>
+
+<div class="data">
+
+    <p>
+        <% friends.forEach( el => { %>
+            <li>
+                <%= el %>
+            </li>
+        <% }) %> 
+    </p>
+    
+</div>
+
+<%- include("partials/footer") %>
